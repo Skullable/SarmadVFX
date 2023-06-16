@@ -1,0 +1,43 @@
+.home{
+    width: 100vw;
+
+    .vid{
+        width: 100vw;
+        object-fit: fill;
+        position: relative;
+    }
+}
+
+.videobox{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-around;
+
+
+    .heading{
+        color: white;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        margin: 20px;
+    }
+
+    .vid{
+        margin: 10px;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+}
+
+.section{
+    padding: 40PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
