@@ -11,13 +11,27 @@
         object-fit: fill;
         position: relative;
     }
-    .Heading{
-        text-shadow: RED 2px 2px;
-        color: white;
-        font-family: sans-serif;
-        font-weight: 600;
-        font-size: 40px;
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         margin: 60px;
+        width: 90%;
+        .Heading{
+            color: white;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 27px;
+            margin: 4px;
+        }
+        .dash{
+            color: red;
+            font-family: serif;
+            font-weight: 900;
+            font-size: 40px;
+            padding-bottom: 8px;
+            
+        }
     }
 }
 
@@ -49,7 +63,7 @@
         color: white;
         font-family: sans-serif;
         font-weight: 600;
-        font-size: 27px;
+        font-size: 20px;
         margin: 20px 5px 10px 20px;
     }
     .period{

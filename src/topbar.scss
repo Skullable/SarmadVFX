@@ -6,7 +6,7 @@
     width: 100vw;
     background-color: black;
     height: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
 
     .list{
         padding: 20px;
@@ -26,6 +26,7 @@
 
     .VFX{
         justify-content: space-around;
+        margin: 20px;
         .heading{
             color: white;
             margin: 0px;

@@ -3,27 +3,34 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     position: fixed;
     bottom: 0px;
     width: 100vw;
     height: 70px;
-
-    .text{
-        font-family: sans-serif;
-        font-size: 10px;
-        color:gray
-    }
-    .icons{
-        justify-content: center;
-        color: white;
-        
-        .icon{
-            cursor: pointer;
-            width: 20px;
-            height: 20px;
+    .wrapper{
+        inset: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        .text{
+            font-family: sans-serif;
+            font-size: 10px;
+            color:gray
+        }
+        .icons{
+            justify-content: center;
             color: white;
-            margin: 7px;
+            
+            .icon{
+                cursor: pointer;
+                width: 20px;
+                height: 20px;
+                color: white;
+                margin: 7px;
+            }
         }
     }
+
 }

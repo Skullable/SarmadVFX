@@ -22,9 +22,10 @@ export default function About() {
                 <div className="seperator"></div>
                 <h6 id="desc">
                     Email:<br/>
-                    sarmadvfx<br/><br/>
+                    <a id='desc' href="mailto:muhammadsarmad513@gmail.com">sarmadvfx</a><br/><br/>
                     Linkedin:<br/>
-                    sarmadameer
+                    <a id='desc' href="https://www.linkedin.com/in/muhammad-sarmad-64503227b/">sarmadameer</a>
+                    
                 </h6>
             </div>
             </div>
