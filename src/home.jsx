@@ -52,7 +52,7 @@ export default function Home() {
      <video className='vid' src={portfolio1} autoPlay loop muted ></video>
      <h1 className='Heading' id="Work">WORKSPACE</h1>
      <Section heading='I Can Create Logo Animations With Effects' src1={LOGO1} heading2='' src2={LOGO2}/>
-     <Section heading='I Can Make Professional Brand Videos Editined With Satifying Effects' src1={VFX1} src2={VFX2} />
+     <Section heading='I Can Make Professional Brand Videos Edited With Satifying Effects' src1={VFX1} src2={VFX2} />
      <Section2 heading='Professional Slideshows For Your Product' src1={SLIDESHOW1} src2={SLIDESHOW2} src3={SLIDESHOW3}/>
      <Section heading='I Can Model 3D Objects For You' src1={D1} src2={D2}/>
     </div>
