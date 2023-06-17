@@ -23,7 +23,7 @@ function Videobox(props){
 function Section(props){
     return(
         <div className="section">
-            <h3 className='heading'>{props.heading}</h3>
+            <h3 className='heading'>{props.heading}</h3><h3 className='period'>.</h3>
             <div className="wrapper">
             <Videobox src={props.src1}/>
             <Videobox src={props.src2}/>
@@ -34,7 +34,7 @@ function Section(props){
 function Section2(props){
     return(
         <div className="section">
-            <h3 className='heading'>{props.heading}</h3>
+            <h3 className='heading'>{props.heading}</h3><h3 className='period'>.</h3>
             <div className="wrapper">
 
             <Videobox heading={props.heading1} src={props.src1}/>
@@ -50,10 +50,11 @@ export default function Home() {
   return (
     <div className='home'>
      <video className='vid' src={portfolio1} autoPlay loop muted ></video>
-     <Section id='work' heading='Logo Animations With Effects' src1={LOGO1} heading2='' src2={LOGO2}/>
-     <Section heading='Professional Video Editing With Satifying Effects' src1={VFX1} src2={VFX2} />
-     <Section2 heading='Professional Slideshow For Your Product' src1={SLIDESHOW1} src2={SLIDESHOW2} src3={SLIDESHOW3}/>
-     <Section heading='Can Render 3D Objects For You' src1={D1} src2={D2}/>
+     <h1 className='Heading'>WORKSPACE</h1>
+     <Section id='work' heading='I Can Create Logo Animations With Effects' src1={LOGO1} heading2='' src2={LOGO2}/>
+     <Section heading='I Can Make Professional Brand Videos Editined With Satifying Effects' src1={VFX1} src2={VFX2} />
+     <Section2 heading='Professional Slideshows For Your Product' src1={SLIDESHOW1} src2={SLIDESHOW2} src3={SLIDESHOW3}/>
+     <Section heading='I Can Model 3D Objects For You' src1={D1} src2={D2}/>
     </div>
   )
 }

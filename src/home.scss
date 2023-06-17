@@ -1,10 +1,22 @@
 .home{
     width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 
     .vid{
         width: 100vw;
         object-fit: fill;
         position: relative;
+    }
+    .Heading{
+        text-shadow: RED 2px 2px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        margin: 60px;
     }
 }
 
@@ -27,18 +39,24 @@
 .section{
     padding: 40PX;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 
     .heading{
-        text-shadow: RED 2px 2px;
         color: white;
         font-family: sans-serif;
         font-weight: 600;
-        font-size: 35px;
-        margin: 20px;
+        font-size: 27px;
+        margin: 20px 5px 10px 20px;
     }
+    .period{
+                color: red;
+                font-family: serif;
+                font-weight: 900;
+                font-size: 40px;
+                margin: 0px;
+            }
 
     .wrapper{
         width: 90%;
