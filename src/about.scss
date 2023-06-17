@@ -1,0 +1,50 @@
+.about{
+    background-color: black;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    #heading{
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    #desc{
+        color: white;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+    .me{
+        flex: 40;
+        padding: 20px;
+        height: 300px;
+
+        .seperator{
+            background-color: red;
+            width: 70px;
+            height: 2px;
+        }
+    }
+
+    .contact{
+        flex: 20;
+        padding: 20px;
+        height: 300px;
+
+        .seperator{
+            background-color: red;
+            width: 70px;
+            height: 2px;
+        }
+    }
+
+}
