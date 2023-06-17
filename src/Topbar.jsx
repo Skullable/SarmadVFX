@@ -6,7 +6,7 @@ export default function Topbar() {
     <div className='topbar'>
         <div className='list'>
             <a className='list-element' href="">HOME</a>
-            <a className='list-element' href="#work">WORK</a>
+            <a className='list-element' href="#Work">WORK</a>
             <a className='list-element' href="">ABOUT</a>
             <a className='list-element' href="mailto:muhammadsarmad513@gmail.com">SAY HELLO</a>             
         </div>

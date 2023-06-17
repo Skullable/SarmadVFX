@@ -1,7 +1,13 @@
 .app{
     background-color: black;
     overflow-x: hidden;
-    
+
+}
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow: y-scroll;
+    scrollbar-width: none; //for firefox
     &::-webkit-scrollbar{
         display: none;
     }

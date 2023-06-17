@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    
 
     .vid{
         width: 100vw;
@@ -42,6 +43,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    scroll-snap-align: start;
 
     .heading{
         color: white;
