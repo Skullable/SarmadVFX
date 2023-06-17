@@ -1,9 +1,11 @@
 import './about.scss'
+import { Outlet } from "react-router-dom";
 
 import React from 'react'
 
 export default function About() {
     return (
+        <>
         <div className='about'>
             <div className="wrapper">
             <div className="me">
@@ -27,5 +29,7 @@ export default function About() {
             </div>
             </div>
         </div>
+        <Outlet/>
+        </>
     )
 }

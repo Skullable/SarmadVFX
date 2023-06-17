@@ -1,13 +1,15 @@
 import React from 'react'
 import './topbar.scss'
+import { Outlet, Link } from "react-router-dom";
 
 export default function Topbar() {
   return (
+    <>
     <div className='topbar'>
         <div className='list'>
-            <a className='list-element' href="">HOME</a>
-            <a className='list-element' href="#Work">WORK</a>
-            <a className='list-element' href="">ABOUT</a>
+            <Link to='/' className='list-element'>HOME</Link>
+            <a className='list-element' href="/#Work">WORK</a>
+            <Link to='/about' className='list-element'>ABOUT</Link>
             <a className='list-element' href="mailto:muhammadsarmad513@gmail.com">SAY HELLO</a>             
         </div>
         <div className='VFX'>
@@ -15,5 +17,7 @@ export default function Topbar() {
           <p className='text'>GRAPHICS DESIGNER BASED IN PK</p>
         </div>
     </div>
+    <Outlet/>
+    </>
   )
 }

@@ -48,6 +48,7 @@ function Section2(props){
 
 export default function Home() {
   return (
+    <>
     <div className='home'>
      <video className='vid' src={portfolio1} autoPlay loop muted ></video>
      <h1 className='Heading' id="Work">WORKSPACE</h1>
@@ -56,5 +57,8 @@ export default function Home() {
      <Section2 heading='Professional Slideshows For Your Product' src1={SLIDESHOW1} src2={SLIDESHOW2} src3={SLIDESHOW3}/>
      <Section heading='I Can Model 3D Objects For You' src1={D1} src2={D2}/>
     </div>
+    </>
   )
 }
+
+
