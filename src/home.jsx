@@ -21,9 +21,10 @@ function Videobox(props){
 
 
 function Section(props){
+    const dot = <span className='period'>.</span>
     return(
         <div className="section">
-            <h3 className='heading'>{props.heading}</h3><h3 className='period'>.</h3>
+            <span className='heading'>{props.heading}{dot}</span>
             <div className="wrapper">
             <Videobox src={props.src1}/>
             <Videobox src={props.src2}/>
@@ -34,7 +35,7 @@ function Section(props){
 function Section2(props){
     return(
         <div className="section">
-            <h3 className='heading'>{props.heading}</h3><h3 className='period'>.</h3>
+            <span className='heading'>{props.heading}<span className='period'>.</span></span>
             <div className="wrapper">
 
             <Videobox heading={props.heading1} src={props.src1}/>
