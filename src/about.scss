@@ -1,7 +1,7 @@
 .about{
     background-color: black;
     width: 100vw;
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +20,7 @@
     }
     .wrapper{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         width: 60%;
@@ -27,7 +28,6 @@
     .me{
         flex: 40;
         padding: 20px;
-        height: 300px;
 
         .seperator{
             background-color: red;
@@ -38,7 +38,7 @@
 
     .contact{
         flex: 20;
-        padding: 20px;
+        margin: 20px;
         height: 300px;
 
         .seperator{
@@ -48,4 +48,16 @@
         }
     }
 
+}
+@media (max-width:470px) {
+
+    .about{
+        #heading{
+            font-size: 15px;
+        }
+        #desc{
+            font-size: 10px;
+        }
+    }
+    
 }
